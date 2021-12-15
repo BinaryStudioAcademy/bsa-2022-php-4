@@ -18,7 +18,7 @@ class Game
     public function start(Reader $reader, Writer $writer)
     {
         $writer->writeln('Your goal is to develop a game "Galaxy Warriors".');
-        $writer->writeln('This method starts infinite loop with game logic.');
+        $writer->writeln('Here you need to realize infinite loop with game logic.');
         $writer->writeln('Use proposed implementation in order to tests work correct.');
         $writer->writeln('Random float number: ' . $this->random->get());
         $writer->writeln('Feel free to remove this lines and write yours instead.');

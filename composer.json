@@ -3,10 +3,10 @@
     "description": "Hometask for object oriented design lecture. Console game",
     "type": "project",
     "require": {
-        "php": ">=7.2"
+        "php": "^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.2"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
