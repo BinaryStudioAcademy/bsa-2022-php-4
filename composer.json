@@ -2,12 +2,6 @@
     "name": "bsa/php-task-4",
     "description": "Hometask for object oriented design lecture. Console game",
     "type": "project",
-    "require": {
-        "php": "^8.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    },
     "autoload": {
         "psr-4": {
             "BinaryStudioAcademy\\": "src/"
@@ -28,5 +22,9 @@
             "name": "Vitaliy Oleynikov",
             "email": "vitaliy.oleynikov@binary-studio.com"
         }
-    ]
+    ],
+    "require": {
+        "php": "^8.1",
+        "phpunit/phpunit": "^9.5"
+    }
 }
